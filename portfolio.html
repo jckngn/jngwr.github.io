@@ -14,6 +14,7 @@
               h1 {
                   text-align: center;
                   font-size: 400%;
+                  margin-left:100x;
               }
               h2 {
                   margin-top: 10px;
@@ -45,20 +46,32 @@
             #algor {
                 margin-top: 10px;
             }
+            #summ {
+                margin-top:10px;
+            }
+            #flowchart{
+                margin-bottom: 15px;
+            }
           </style>
          </head>
     <body>
-        <ul id="nav"><!-- This is a comment. ul Stands for Unordered List.-->
+       <ul id="nav"><!-- This is a comment. ul Stands for Unordered List.-->
             <li><a href="index.html">Home</a></li><!--li stands for List Item.-->
             <li><a href="about.html">About</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
+        <div class="dropdown" style="float:right;">
+            <button class="dropbtn">On This Page</button>
+            <div class="dropdown-content">
+                <a href="#story">Python Story</a>
+            </div>
+            </div>
         <h1>PORTFOLIO</h1>
         <div id="port">
            <h2>Scratch Game: <i>DiePod</i></h2>
         <div id="hope">
-           <a href="https://scratch.mit.edu/projects/259191371/#player">DiePod</a>
+           <a href="https://scratch.mit.edu/projects/259191371/#player"><i>Link: </i>DiePod</a>
         </div>
         <img id="tide" src="diepod.homepage">
         <div id="description">
@@ -100,6 +113,46 @@
         <h3>More Blocks</h3>
         <hr width=30%>
         <img src="more">
+        <hr width=80%>
+        <div id="story">
+            <h2>Python Interactive Story: <i>Twinkie Reflection</i></h2>
         </div>
+        <a href="https://repl.it/@JackNguyen1/Twinkie-Reflection-5"><i>Link: </i>Twinkie Reflection</a>
+        <div id="summ">
+        <h3>Description</h3>
+        </div>
+        <hr width=30%>
+        <p><i>Twinkie Reflection</i> is a "Choose Your Own Adventure" styled <br>
+        game with the main character as the player. A story filled with stone cold chicken,<br>
+        crocs, and yes, twinkies. With multiple endings, this story will make you think<br>
+        about the decisions you choose to make. <br>How will your story end?</p>
+        <h3>Flowchart</h3>
+        <hr width=30%>
+        <div id="flowchart">
+            <a href="https://docs.google.com/drawings/d/103Kwaru8CFFjNJ37F5hyUNLPNJvvemc4_sqQBw5nb2o/edit?usp=sharing">
+            <img src="story.png" width="189" height="267">
+            </a>
+        </div>
+        <h3>Development Process</h3>
+        <hr width=30%>
+        <p>
+            For this game I took each scene of the story as individual functions, <br>
+            each scene a piece for the whole story. Each function holds a specific "definition",<br>
+            or the necessary code for the scene. The functions are a form of procedural<br>
+            abrstraction as each function can easily be called upon with information of the specific<br>
+            scene already implemented within the code, providing an efficient way to test the program<br>
+            in increments. Within this process of creating multiple  functions I utilized the "run"<br>
+            feature in repl.it in order to check the  program for any possible errors. Through repition and <br>
+            focus on singular parts of the program I was able to catch grammatical errors, and I was also<br>
+            able to refine the storyline through each test. At one point in a test run<br>
+            a prompt was not checking for invalid user input and this was resolved by<br>
+            making small adjustments to the code and running through it again, each time<br>
+            working on the same part. Additionally, I was able to add some "dialouge"<br>
+            to one of the prompts that the player was given if an input was invalid <br>
+            and the program was set to run independently one function after the other.<br>
+            
+        </p>
+        </div>
+        
     </body>
 </html>
